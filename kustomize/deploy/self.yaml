@@ -12,7 +12,7 @@ kind: Kustomization
 metadata:
   name: self
 spec:
-  interval: 5m
+  interval: 1m
   path: "./kustomize/deploy"
   prune: true
   sourceRef:
